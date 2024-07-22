@@ -1,0 +1,30 @@
+main {
+  background-color: aqua;
+}
+
+div {
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body div {
+  font-size: 30px;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,18 @@
+@import './colors.scss';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    @import './mixin.scss';
+    @import './header.scss';
+    @import './main.scss';
+    @import './aside.scss';
+    div {
+        font-size: 30px;
+        text-align: center;
+    }
+}
